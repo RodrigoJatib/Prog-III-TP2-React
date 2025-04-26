@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+This project was developed as part of the Practical Work No. 2, of the Programming III course of the University Degree in Programming of the UTN-FRT.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+📚 Description
+In this project, a React application was created from scratch with the goal of managing a dynamic list of members. Various key React concepts and tools were used, including the creation of reusable components, route handling with react-router-dom, state management with useState, and form validation.
 
-### `npm start`
+🛠️ Technologies Used
+React: JavaScript library for building user interfaces.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+react-router-dom: For route management within the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+useState: For managing the state of components.
 
-### `npm test`
+CSS: For styling (flexbox, cards, hover effects).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+GitHub: For project management with branches and merges.
 
-### `npm run build`
+🚀 How to Run the Project
+Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copiar
+Editar
+git clone https://github.com/yourUsername/yourRepository.git
+Install the dependencies: After cloning the repository, navigate to the project directory and run the following command to install the necessary dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copiar
+Editar
+cd yourRepository
+npm install
+Run the application: Once the dependencies are installed, you can start the development server with:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copiar
+Editar
+npm start
+This will open the application in your default browser, typically at http://localhost:3000.
 
-### `npm run eject`
+📄 Main Features
+Main Components:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Header: Header component including the navigation menu.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Footer: Footer component with additional information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Main: Contains the main logic of the application and displays the list of members.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Route Handling: The application uses react-router-dom to manage routes and navigation between different views within the app.
 
-## Learn More
+Member Form: A form is implemented to add new members to the list. This form includes:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Validations: Ensures that the data entered is valid before being submitted.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The fields in the form include:
 
-### Code Splitting
+Name: Requires a valid name for each member.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Age: Requires a positive integer.
 
-### Analyzing the Bundle Size
+State Management with useState: The application state is managed using useState to store the list of members. The state is dynamically updated every time a new member is added.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🖼️ Styling
+The styles were implemented using CSS, focusing on the following features:
 
-### Making a Progressive Web App
+Flexbox: To organize the layout of the sections flexibly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Cards: Visual style for each listed member.
 
-### Advanced Configuration
+Hover Effects: Visual effects when the user hovers over elements in the interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📦 Project Structure
+bash
+Copiar
+Editar
+/src
+  /components
+    Header.js       # Header component.
+    Footer.js       # Footer component.
+    Main.js         # Main logic and member list.
+  /styles
+    App.css         # Main styles.
+    Header.css      # Styles for the header.
+    Main.css        # Styles for the list and form.
+  App.js            # Main component managing the application.
+  index.js          # Entry point of the application.
+🤝 Contributing
+If you would like to contribute to this project, please follow these steps:
 
-### Deployment
+Fork the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Create a new branch (git checkout -b feature/new-feature).
 
-### `npm run build` fails to minify
+Make your changes and commit them (git commit -am 'Added new feature').
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Submit a pull request for review.
+
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
