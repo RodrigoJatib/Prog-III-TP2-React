@@ -6,7 +6,7 @@ body {
 }
 
 header, footer {
-  background-color: #333;
+  background-color: #0077b6;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -34,10 +34,15 @@ main {
 .card {
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
   width: 250px;
   padding: 1rem;
   text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
@@ -50,14 +55,19 @@ main {
 
 form {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form input {
+  width: 300px;
   margin: 0.5rem;
   padding: 0.5rem;
 }
 
 form button {
+  width: 200px;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   cursor: pointer;
@@ -65,4 +75,15 @@ form button {
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+footer a {
+  color: #ffffff; /* Amarillo fuerte */
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #2c1661;
+  text-decoration: underline;
 }

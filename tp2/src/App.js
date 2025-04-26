@@ -15,12 +15,13 @@ import fotoRodrigo from "../src/assets/profile.jpg";
 
 
 function App() {
+  // Estado que guarda los integrantes del grupo
   const [integrantes, setIntegrantes] = useState([
     {
       nombre: "Rodrigo",
       apellido: "Jatíb",
       legajo: "54911",
-      github: "https://github.com/rodrigoperez",
+      github: "https://github.com/RodrigoJatib",
       foto: fotoRodrigo
     }
   ]);
