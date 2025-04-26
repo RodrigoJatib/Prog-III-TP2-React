@@ -66,6 +66,10 @@ form input {
   padding: 0.5rem;
 }
 
+form input:hover {
+  border: 1px solid #0077b6;
+}
+
 form button {
   width: 200px;
   padding: 0.5rem 1rem;
