@@ -6,6 +6,7 @@ This project was developed as part of the Practical Work No. 2, of the Programmi
 In this project, a React application was created from scratch with the goal of managing a dynamic list of members. Various key React concepts and tools were used, including the creation of reusable components, route handling with react-router-dom, state management with useState, and form validation.
 
 🛠️ Technologies Used
+
 React: JavaScript library for building user interfaces.
 
 react-router-dom: For route management within the application.
@@ -16,27 +17,7 @@ CSS: For styling (flexbox, cards, hover effects).
 
 GitHub: For project management with branches and merges.
 
-🚀 How to Run the Project
-Clone the repository:
 
-bash
-Copiar
-Editar
-git clone https://github.com/yourUsername/yourRepository.git
-Install the dependencies: After cloning the repository, navigate to the project directory and run the following command to install the necessary dependencies:
-
-bash
-Copiar
-Editar
-cd yourRepository
-npm install
-Run the application: Once the dependencies are installed, you can start the development server with:
-
-bash
-Copiar
-Editar
-npm start
-This will open the application in your default browser, typically at http://localhost:3000.
 
 📄 Main Features
 Main Components:
@@ -61,6 +42,8 @@ Age: Requires a positive integer.
 
 State Management with useState: The application state is managed using useState to store the list of members. The state is dynamically updated every time a new member is added.
 
+
+
 🖼️ Styling
 The styles were implemented using CSS, focusing on the following features:
 
@@ -70,10 +53,10 @@ Cards: Visual style for each listed member.
 
 Hover Effects: Visual effects when the user hovers over elements in the interface.
 
+
+
 📦 Project Structure
-bash
-Copiar
-Editar
+
 /src
   /components
     Header.js       # Header component.
@@ -85,6 +68,7 @@ Editar
     Main.css        # Styles for the list and form.
   App.js            # Main component managing the application.
   index.js          # Entry point of the application.
+  
 🤝 Contributing
 If you would like to contribute to this project, please follow these steps:
 
