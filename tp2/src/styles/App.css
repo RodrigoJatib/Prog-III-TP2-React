@@ -61,4 +61,8 @@ form button {
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   cursor: pointer;
+  background-color: #09008d;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
